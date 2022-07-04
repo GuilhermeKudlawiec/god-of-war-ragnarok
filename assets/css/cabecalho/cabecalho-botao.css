@@ -1,6 +1,12 @@
 .cabecalho__botao {
     background: #363636;
+    border: none;
     border-radius: 10px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.cabecalho__botao:hover {
+    background: #606060;
+    cursor: pointer;
 }

@@ -4,6 +4,10 @@
     text-decoration: none;   
 }
 
+.cabecalho__link.lista:hover {
+    color: #0070D1;
+}
+
 @media screen and (min-width: 0) {
     .cabecalho__link.lista {
         font-size: 1.4rem;

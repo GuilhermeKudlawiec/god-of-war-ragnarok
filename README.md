@@ -29,4 +29,4 @@ https://guilhermekudlawiec.github.io/god-of-war-ragnarok/
 
 Repositório do curso: 
 
-https://guilhermekudlawiec.github.io/Cursos/
+https://guilhermekudlawiec.github.io/Cursos/alura/front-end/front-end-ui/arquitetura-css/

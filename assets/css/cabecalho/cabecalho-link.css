@@ -20,8 +20,4 @@
         font-size: 1.3rem;
         margin-right: 10px
     }
-
-    .cabecalho__link.lista:first-child {
-        margin-left: 10px;
-    }
 }

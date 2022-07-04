@@ -1,3 +1,19 @@
 .cabecalho__item {
     display: inline;
 }
+
+.cabecalho__item:last-child a {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__item:first-child a {
+        margin-left: 0px;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__item:first-child a {
+        margin-left: 10px;
+    } 
+}

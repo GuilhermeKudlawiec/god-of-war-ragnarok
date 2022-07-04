@@ -1,0 +1,18 @@
+.cabecalho__direita {
+    padding: 0 10px 0 0;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__direita {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__direita {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+    }
+}

@@ -1,0 +1,16 @@
+.recursos-principais {
+    background: #1A1A1A;
+    padding: 8.0rem;
+}
+
+@media screen and (min-width: 0) {
+    .recursos-principais {
+        padding: 4.0rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recursos-principais {
+        padding: 8.0rem;
+    }
+}

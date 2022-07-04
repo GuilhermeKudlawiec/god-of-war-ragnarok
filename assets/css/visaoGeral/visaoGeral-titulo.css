@@ -1,0 +1,33 @@
+.visao-geral__titulo span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 0) {
+    
+    .visao-geral__titulo {
+        line-height: 1.5;
+    }
+
+    .visao-geral__titulo span {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .visao-geral__titulo h2 {
+        font-size: 3.2rem;
+        font-weight: 400;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .visao-geral__titulo {
+        width: 50%;
+    }
+    
+    .visao-geral__titulo h2 {
+        font-size: 3.6rem;
+    }
+}

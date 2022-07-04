@@ -1,0 +1,23 @@
+.cabecalho__link.lista {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;   
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__link.lista {
+        font-size: 1.4rem;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__link.lista {
+        font-size: 1.3rem;
+        margin-right: 10px
+    }
+
+    .cabecalho__link.lista:first-child {
+        margin-left: 10px;
+    }
+}

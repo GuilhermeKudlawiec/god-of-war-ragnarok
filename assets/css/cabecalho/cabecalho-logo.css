@@ -1,0 +1,22 @@
+.cabecalho__logo.sony {
+    height: 36px;
+    margin: 0 10px 0 0;
+    width: 75px;
+}
+
+.cabecalho__logo.playstation {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__logo.playstation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__logo.playstation {
+        display: block;
+    }
+}

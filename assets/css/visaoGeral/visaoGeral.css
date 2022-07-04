@@ -1,0 +1,16 @@
+.visao-geral {
+    background: url("https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-screenshot-clean-17-en-07sept21?$4000px$") no-repeat center / cover;
+    color: #f5f5f5;
+}
+
+@media screen and (min-width: 0) {
+    .visao-geral {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .visao-geral {
+        height: calc(100vh - 90px);
+    }
+}

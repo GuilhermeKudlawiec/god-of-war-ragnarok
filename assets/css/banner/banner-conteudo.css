@@ -1,0 +1,24 @@
+.banner__conteudo {
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__conteudo {
+        background: linear-gradient(to top, #212121 20%, transparent);
+        justify-content: flex-end;
+        padding: 3.0rem 0 3.0rem 3.0rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner__conteudo {
+        background: linear-gradient(to right, #212121, transparent);
+        justify-content: center;
+        padding: 0 0 0 8.0rem;
+    }
+}

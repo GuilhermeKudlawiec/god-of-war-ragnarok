@@ -1,0 +1,15 @@
+.visao-geral__descricao p {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.6;
+}
+
+.visao-geral__descricao p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .visao-geral__descricao {
+        width: 50%;
+    }
+}
